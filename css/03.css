@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.tabs a{
+  cursor: pointer;
+  padding: 1px;
+  background: #000;
+  color: #999;
+  border: 1px solid #999;
+ 
+  float: right;
+}
+.tabs a:hover, .tabs a.active{
+  background: #666;
+  color: #fff;
+  float: right;
+}
+
+.tabContent{
+  border: 0px solid #999;
+  margin: 4px 0;
+  padding: 1px;
+  
+  
+}
